@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LojaWEB: onde vende tudo!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="/css/default.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="black">
@@ -73,22 +76,76 @@
             </div>
             <div class="carrinho col-1" id="carrinho">
                 <span>0</span> <br>
+                <i class="fa-solid fa-cart-shopping"></i>
                 <span>Carrinho</span>
             </div>
         </header>
-        <nav>
-           <a href="todos"><i class="fa fa-bars"></i>  Todos</a>
-            <!-- <a href="todos">Todos</a> -->
-            <a href="venda">Venda na Amazon</a>                
-            <a href="prime">Prime</a>              
-            <a href="mvendidos">Mais Vendidos</a>
-            <a href="eletro">Eletrônicos</a>
-            <a href="ideias">Ideias para Presente</a>
-            <a href="brinquedos">Brinquedos e Jogos</a>
-            <a href="ebooks">eBooks Kindle</a>
+        <nav class="row bg-blue">
+            <!-- <div>
+                <a href="todos"><i class="fa fa-bars"></i>  Todos</a>
+                <a href="venda">Venda na Amazon</a>                
+                <a href="prime">Prime</a>              
+                <a href="mvendidos">Mais Vendidos</a>
+                <a href="eletro">Eletrônicos</a>
+                <a href="ideias">Ideias para Presente</a>
+                <a href="brinquedos">Brinquedos e Jogos</a>
+                <a href="ebooks">eBooks Kindle</a>
+            </div> -->
+            <ul class="menu col-8">
+                <li>
+                    <button title="menu">
+                        <i class="fa fa-bars"></i>
+                        <span>Todos</span>                         
+                    </button>
+                </li>
+                <li>
+                    <a href="venda">Venda na Amazon</a>
+                </li>
+                <li>
+                    <a href="mvendidos">Mais Vendidos</a>
+                </li>
+                <li>
+                    <a href="Prime">Prime</a>
+                    <i class="fa solid fa-caret-down" style="color: #ffff ;"></i>
+                </li>      
+
+                
+            </ul>
+            <ul class="menu col-4 promocional right w-100">
+                <img src="./img/MicrosoftTeams-image (3).png" alt="promocional" height="30px">
+
+            </ul>
         </nav>
 
-        <section id="sec_imagem">
+        <section class="container row">
+            <div class="carousel col-12">
+                carousel               
+            </div>
+            <div class="produtos col-12">
+                <div class="produto col-3">
+                    <div class="bg-blue">
+                        produto 1
+                    </div>
+                </div>
+                <div class="produto col-3">
+                    <div class="bg-blue">
+                        produto 2
+                    </div>
+                </div>
+                <div class="produto col-3">
+                    <div class="bg-blue">
+                        produto 3
+                    </div>
+                </div>
+                <div class="produto col-3">
+                    <div class="bg-blue">
+                        produto 4
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="sec_imagem">
             <img src="./img/Captura de tela 2022-09-07 184056.png" alt="imagem de fundo" id="foto">
         </section>
         
@@ -141,22 +198,19 @@
                 <img src="./img/Captura de tela 2022-09-07 190900.png" alt="controle">
                 <br>
                 <br>
-                <!-- <span>Fire TV stick</span> -->
                 <img src="./img/Captura de tela 2022-09-07 190936.png" alt="tablet">
-                <!-- <span>Kindle</span> -->
                 <img src="./img/Captura de tela 2022-09-07 191002.png" alt="alexa">
-                <!-- <span>Echo Dot</span> -->
                 <img src="./img/Captura de tela 2022-09-07 191027.png" alt="fones">
-                <!-- <span>Echo Buds</span> -->
                 <br>
                 <br>
                 <a href="confira">Confira agora</a>
                 <br>
                 <br>
-
             </div>
+        </section> -->
+ 
 
-        </section>
+
         
     </main>
 </body>
