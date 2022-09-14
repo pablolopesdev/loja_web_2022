@@ -16,19 +16,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="black">
+<body>
     <main>
         <header class="row">
             <div class="logo col-2">
                 <img src="./img/logo.png" alt="logomarca Amazon" height="50">
             </div>
             <div class="localizacao col-2">
-                <!-- <div>
-                    
-                    <img src="./img/map-svgrepo-com.svg" alt=""> 
-                </div> -->
                 <div id="localizacao">
-                    <i class="fa fa-map-marker-alt"></i>
+                    <img src="./img/map-svgrepo-com.svg" alt=""> 
                     <span>Olá</span><br>
                     <span>Selecione o endereço</span>
                 </div>
@@ -47,11 +43,9 @@
                             Casa
                         </option>
                     </select>
-
                     <label for="nomeProduto"></label>
                     <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
                         placeholder="Nome do produto">
-
                     <!-- <label for=""></label> -->
                     <!-- <input type="submit" value=""> -->
                     <button type="submit" title="Fazer Pesquisa">
@@ -76,7 +70,7 @@
             </div>
             <div class="carrinho col-1" id="carrinho">
                 <span>0</span> <br>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fas fa-shopping-cart"></i>
                 <span>Carrinho</span>
             </div>
         </header>
@@ -93,9 +87,9 @@
             </div> -->
             <ul class="menu col-8">
                 <li>
-                    <button title="menu">
-                        <i class="fa fa-bars"></i>
-                        <span>Todos</span>                         
+                    <button title="menu" class="bg-blue" style="border: none;">
+                        <i class="fa fa-bars white"></i>
+                        <span class="white">Todos</span>                         
                     </button>
                 </li>
                 <li>
@@ -107,39 +101,94 @@
                 <li>
                     <a href="Prime">Prime</a>
                     <i class="fa solid fa-caret-down" style="color: #ffff ;"></i>
-                </li>      
-
-                
+                </li>                
             </ul>
-            <ul class="menu col-4 promocional right w-100">
-                <img src="./img/MicrosoftTeams-image (3).png" alt="promocional" height="30px">
-
+            <ul class="menu white col-4 promocional right">
+                <li>
+                    <a href="promocional.html">
+                        <img src="img/0118_SC22_SWM2_400x39._CB612360418_.jpg" alt="promocional" height="30"
+                            class="w-100">
+                    </a>
+                </li>
             </ul>
         </nav>
-
         <section class="container row">
-            <div class="carousel col-12">
-                carousel               
+            <div class="carousel">
+                <img src="./img/Captura de tela 2022-09-07 184056.png" alt="imagem de fundo" id="foto">               
             </div>
             <div class="produtos col-12">
                 <div class="produto col-3">
-                    <div class="bg-blue">
-                        produto 1
+                    <div class="bg-white">
+                        <span>Ofertas do dia</span>
+                    <br> <br>
+                    <img src="./img/Captura de tela 2022-09-07 190758.png" alt="fotobox">
+                    <br>
+                    <br>
+                    <a href="Veja mais">Veja mais</a>
+                    <br>
+                    <br>
                     </div>
                 </div>
                 <div class="produto col-3">
-                    <div class="bg-blue">
-                        produto 2
+                    <div class="bg-white">
+                        <span>Destaques em dispositivo Amazon</span>
+                <br>
+                <br>
+                <img src="./img/Captura de tela 2022-09-07 190900.png" alt="controle">
+                <a href="firestick" style="font-weight: bold;">Fire TV Stick com Alexa</a>
+                <br>
+                <br>
+                <img src="./img/Captura de tela 2022-09-07 190936.png" alt="tablet">
+                <img src="./img/Captura de tela 2022-09-07 191002.png" alt="alexa">
+                <img src="./img/Captura de tela 2022-09-07 191027.png" alt="fones">
+                <div id="txt">
+                    <a href="kindle">Kindle</a>
+                    <a href="echodot" style="padding-left: 47px;">Echo Dot</a>
+                    <a href="echobud" style="padding-left: 30px;">Echo Buds</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <a href="confira">Confira agora</a>
+                <br>
+                <br>
                     </div>
                 </div>
                 <div class="produto col-3">
-                    <div class="bg-blue">
-                        produto 3
+                    <div class="bg-white">
+                        <span>Ofertas do dia</span>
+                    <br> <br>
+                    <img src="./img/Captura de tela 2022-09-07 190758.png" alt="fotobox">
+                    <br>
+                    <br>
+                    <a href="Veja mais">Veja mais</a>
+                    <br>
+                    <br>
                     </div>
                 </div>
                 <div class="produto col-3">
-                    <div class="bg-blue">
-                        produto 4
+                    <div class="bg-white">
+                        <span>Destaques em dispositivo Amazon</span>
+                <br>
+                <br>
+                <img src="./img/Captura de tela 2022-09-07 190900.png" alt="controle">
+                <a href="firestick" style="font-weight: bold;">Fire TV Stick com Alexa</a>
+                <br>
+                <br>
+                <img src="./img/Captura de tela 2022-09-07 190936.png" alt="tablet">
+                <img src="./img/Captura de tela 2022-09-07 191002.png" alt="alexa">
+                <img src="./img/Captura de tela 2022-09-07 191027.png" alt="fones">
+                <div id="txt">
+                    <a href="kindle">Kindle</a>
+                    <a href="echodot" style="padding-left: 47px;">Echo Dot</a>
+                    <a href="echobud" style="padding-left: 30px;">Echo Buds</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <a href="confira">Confira agora</a>
+                <br>
+                <br>
                     </div>
                 </div>
             </div>
@@ -168,13 +217,9 @@
                 <img src="./img/Captura de tela 2022-09-07 190900.png" alt="controle">
                 <br>
                 <br>
-                <!-- <span>Fire TV stick</span> -->
                 <img src="./img/Captura de tela 2022-09-07 190936.png" alt="tablet">
-                <!-- <span>Kindle</span> -->
                 <img src="./img/Captura de tela 2022-09-07 191002.png" alt="alexa">
-                <!-- <span>Echo Dot</span> -->
                 <img src="./img/Captura de tela 2022-09-07 191027.png" alt="fones">
-                <!-- <span>Echo Buds</span> -->
                 <br>
                 <br>
                 <a href="confira">Confira agora</a>
