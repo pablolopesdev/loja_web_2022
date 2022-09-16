@@ -6,19 +6,40 @@ header {
 .logo img {
     height: auto;
     width: 100%;
+
 }
 
 .icon {
-    color: var(--white);
+    color: #fff;
 }
 
+#localizacao {
+    padding: 20px 20px;
+
+}
+
+#pesquisa {
+    padding: 20px;
+}
+
+#login {
+    padding: 25px 30px;
+}
+
+#devolucao{
+    margin: 0;
+    padding: 25px 20px 0px 0px;
+
+}
+
+#carrinho{
+    padding: 25px;
+
+
+}
 .formPerquisa {
-    background-color: var(--white);
+    background-color: #fff;
     border-radius: 10px;
-}
-
-.formPerquisa {
-    border: solid 3px;
 }
 
 .formPerquisa select,
@@ -26,15 +47,15 @@ header {
 .formPerquisa button {
     height: 40px;
     border: none;
-    outline: none;
 }
 
 .formPerquisa select {
     background-color: #dadada;
     padding-left: 10px;
-    width: 35%;
+    width: 25%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    text-align: center;
 }
 
 .formPerquisa input {
@@ -47,6 +68,7 @@ header {
     float: right;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: #ffbc69;
 }
 
 @media (max-width:760px) {
