@@ -29,18 +29,12 @@ nav .promocional img {
 
 /* Carousel */
 .carousel {
-<<<<<<< HEAD
-    height: 225px;
-    background-color: var(--black);
-
-=======
     height: 100%;
     min-height: 500px;
     background-image: url(/img/banner/61vMcktz42L._SX3000_.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
->>>>>>> ec4a1ed24ee443c9cefe1d637b826cbe665f68db
 }
 
 /* section */
@@ -56,15 +50,14 @@ section {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .produto-item {
     width: 100px;
     height: 100px;
     display: inline-block;
-    
-}   
-=======
-.produto a {
+
+}
+
+=======.produto a {
     text-decoration: none;
     color: var(--black);
 }
@@ -129,4 +122,3 @@ section {
     color: var(--orange);
     text-decoration: underline;
 }
->>>>>>> ec4a1ed24ee443c9cefe1d637b826cbe665f68db
