@@ -20,7 +20,6 @@ nav ul li {
 /* nav .promocional {
     text-align: right;
 }
-
 nav .promocional img {
     width: 100%;
     min-width: 300px;
@@ -46,18 +45,10 @@ section {
 
 /* Produtos */
 .produto {
-    display: inline-block;
-    text-align: center;
+    padding: 0 5px;
 }
 
-.produto-item {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-
-}
-
-=======.produto a {
+.produto a {
     text-decoration: none;
     color: var(--black);
 }
