@@ -19,15 +19,15 @@
 }
 
 .bg-gray {
-    background-color: var(--gray);
+    background-color: var(--gray)
 }
 
 .gold {
-    color: var(--gold);
+    color: var(--gold)
 }
 
 .bg-gold {
-    background-color: var(--gold);
+    background-color: #febd69;
 }
 
 .blue {

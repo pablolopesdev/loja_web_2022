@@ -9,11 +9,11 @@ header {
 }
 
 .icon {
-    color: var(--white);
+    color: #fff;
 }
 
 .formPerquisa {
-    background-color: var(--white);
+    background-color: #fff;
     border-radius: 10px;
 }
 

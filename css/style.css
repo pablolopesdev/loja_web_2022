@@ -26,11 +26,19 @@ nav .promocional img {
 } */
 
 .carousel {
-    height: 200px;
+    height: 225px;
+    background-color: var(--black);
+
 }
 
 .produto {
-    padding: 0 5px;
+    display: inline-block;
+    text-align: center;
 }
 
-.produto-item {}
+.produto-item {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}   
