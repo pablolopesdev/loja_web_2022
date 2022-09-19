@@ -12,13 +12,8 @@ header {
     color: #fff;
 }
 
-<<<<<<< HEAD
 .formPerquisa {
     background-color: #fff;
-=======
-.formPesquisa {
-    background-color: var(--white);
->>>>>>> e82027d1d0ead38eb5c2a8bcac8beb1f323bb039
     border-radius: 10px;
 }
 
