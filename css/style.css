@@ -7,6 +7,7 @@ body {
     font-size: 12px;
     /*12px ~ 1.0em*/
     background-color: var(--gray);
+    color: var(--black);
 }
 
 h1 {
@@ -26,6 +27,11 @@ h3 {
 
 p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .menu a {
@@ -61,7 +67,7 @@ nav .promocional img {
 }
 
 /* section */
-section {
+.main-produto {
     background-image: linear-gradient(transparent, var(--gray) 30%);
     position: relative;
     top: -250px;
