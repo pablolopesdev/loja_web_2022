@@ -9,6 +9,25 @@ body {
     background-color: var(--gray);
 }
 
+h1 {
+    font-size: var(--fs-lg) !important;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--fs-md);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
 .menu a {
     /* background-color: var(--blue); */
     color: var(--white);
@@ -83,7 +102,7 @@ section {
 }
 
 .produto-comum .foto {
-    height: 60%;
+    height: 40%;
     overflow: hidden;
     text-align: center;
 }
