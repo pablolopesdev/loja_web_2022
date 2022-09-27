@@ -17,22 +17,23 @@
     <link rel="stylesheet" href="../css/pages/login.css">
 </head>
 
-<body class="black">
+<body class="black bg-white">
     <main>
         <section>
             <header>
                 <img src="../img/logo_login.jpg" alt="Logo loja" class="w-100">
             </header>
-            <div class="row">
+            <div class="row login-content">
                 <h2 class="py-2 col-12">
                     Fazer login
                 </h2>
                 <form action="http://www.google.com.br/" class="col-12">
-                    <label for="">
+                    <label for="" class="fw-bold">
                         E-mail ou número de telefone celular
                     </label>
-                    <input type="text" class="w-100">
-                    <button class="text-center w-100">
+                    <input type="text" class="w-100 form-control my-2">
+
+                    <button class="btn btn-warning text-center w-100 my-1">
                         Continuar
                     </button>
                 </form>
@@ -41,16 +42,35 @@
                     Privacidade,<br>
                     Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.
                 </p>
-                <p class="col-12">
-                    Precisa de ajuda?
+                <p class="col-12 pt-4">
+                    <a class="login-content-ajuda" data-bs-toggle="collapse" href="#ajuda-opcoes"
+                        aria-expanded="false"></a>
+                    Precisa de ajuda?</a>
                 </p>
+                <div class="login-content-ajuda-opcao collapse" id="ajuda-opcoes">
+                    <p>
+                        <a href="#"> Esqueci a senha</a>
+                    </p>
+                    <p>
+                        <a href="#"> Outros problemas com o acesso </a>
+                    </p>
+                </div>
             </div>
             <div>
-                Novo na Amazon?
-                Criar sua conta da Amazon
+                <div class="login-content-novo">
+                    <div> Novo na Amazon? </div>
+                    <hr>
+                </div>
+
+                <button class="btn btn-secondary w-100 my-4">
+                    Criar sua conta da Amazon
+                </button>
             </div>
         </section>
     </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 
 </html>
