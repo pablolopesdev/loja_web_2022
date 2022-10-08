@@ -53,3 +53,7 @@
 .bg-red {
     background-color: var(--red);
 }
+
+.bd-gray {
+    border-color: var(--gray);
+}
